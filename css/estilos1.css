@@ -316,22 +316,23 @@ footer {
 
 @media(max-width: 1920px) {
 	.product-container {
-		max-width: 1500px;
+		max-width: 100%;
 	}
 	main {
 		padding-top: 6%;
 		padding-bottom: 20%;
-		padding-left: 22%;
-		padding-right: 22%;
+		padding-left: 21%;
+		padding-right: 21%;
 	}
 	.product-image {
-		height: 400px;
+		height: 350px;
 
 	}
 	.product-text {
+		font-size: 14.5px;
 		padding-top: 0%;
 		margin-left: 0px;
-		max-width: 600px;
+		max-width: 50%;
 		text-align: justify;
 	}
 }

@@ -67,29 +67,32 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
     background-image: url(../images/titlebg.jpg);
     background-size: cover;
     color: #F8F3EB;
     text-align: center;
 }
 
+#banner h2 {
+	font-size: 55px;
+}
+
+#banner p {
+	font-size: 20px;
+}
+
 main {
 	background-color: #F8F3EB;
 	font-family: Tahoma;
-	padding-top: 5%;
-	padding-bottom: 1.96%;
-	padding-left: 27.5%;
-	padding-right: 27.5%;
-}
+	font-size: 18px;
 
-section {
-	margin-bottom: 40px;
 }
 
 h1, h2, h3 {
 	font-weight: bolder;
 	margin: 0;
+	text-align:left;
 }
 
 .producto {
@@ -105,7 +108,7 @@ h1, h2, h3 {
 	width: 100%;
 	max-width: 500px;
 	max-height: 330px;
-	background-color: rgb(74, 146, 115);
+	background-color: #333333;
 	padding: 0.5rem;
 	
 
@@ -114,7 +117,7 @@ h1, h2, h3 {
 .product-container {
 	display: flex;
 	max-width: 1200px;
-	margin: 0 auto;
+
 }
   
 .product-image {
@@ -123,7 +126,7 @@ h1, h2, h3 {
 }
   
 .product-text {
-	margin-left: 30px;
+	margin-left: 50px;
 	max-width: 600px;
 	text-align: justify;
 }
@@ -147,8 +150,8 @@ h1, h2, h3 {
 }
 
 .producto a {
-	background-color: #C5E5D5;
-	color: #05582f;
+	background-color: #F8F3EB;
+	color: #4C4C4C;
 	padding: 10px 20px;
 	border-radius: 5px;
 	text-decoration: none;
@@ -161,7 +164,7 @@ h1, h2, h3 {
 
 form {
 	display: flex;
-	flex-direction: column;
+	flex-direction:column;
 	max-width: 600px;
 	margin: 0 auto;
 }
@@ -180,8 +183,8 @@ form input, form textarea {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 2rem;
-}
+	grid-gap: 20px;
+  }
 
 
 .conocimiento {
@@ -197,8 +200,8 @@ form input, form textarea {
 
 input[type="submit"] {
 	font-family: Tahoma;
-	background-color: #C5E5D5;
-	color: #05582f;
+	background-color: #F8F3EB;
+	color: #4C4C4C;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
@@ -208,7 +211,8 @@ input[type="submit"] {
 }
   
 input[type="submit"]:hover {
-	background-color: #2d6a2e;
+	background-color: #333;
+	color: #F5DEB3;
 }
   
 .g-recaptcha {
@@ -236,14 +240,19 @@ input[type="submit"]:hover {
 
 button[type="submit"] {
 	font-family: Tahoma;
-	background-color: #C5E5D5;
-	color: #05582f;
+	background-color: #ccb5ab;
+	color: #434343;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
 	font-size: 18px;
 	cursor: pointer;
 	margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+	background-color: #333;
+	color: #F5DEB3;
 }
 
 .fixed-top {
@@ -314,13 +323,40 @@ footer {
 	text-align: left;
 }
 
+.seccion1{
+	background-color: #D8C7BB;
+	color: #4C4C4C;
+}
+
+.seccion2{
+	background-color: #ccb5ab;
+	color: #4C4C4C;
+}
+
+.seccion3{
+	background-color: #ECE2D9;
+	color: #4C4C4C;
+}
+
+.contenedor{
+	padding-left: 27.5%;
+	padding-right: 27.5%;
+}
+
+.contenedortop{
+	padding-top: 3.5%;
+}
+
 @media(max-width: 1920px) {
+	h1, h2, h3 {
+		text-align:left;
+	}
 	.product-container {
 		max-width: 100%;
 	}
 	main {
 		padding-top: 6%;
-		padding-bottom: 20%;
+		padding-bottom: 15%;
 		padding-left: 21%;
 		padding-right: 21%;
 	}

@@ -169,7 +169,7 @@ h1, h2, h3 {
 form {
 	display: flex;
 	flex-direction:column;
-	max-width: 600px;
+	max-width: 80%;
 	margin: none auto;
 }
 
@@ -183,6 +183,11 @@ form input, form textarea {
 	border: none;
 	margin-bottom: 20px;
 }
+
+.contactoform {
+	padding-left: 20%;
+}
+
 
 .grid {
 	display: grid;
@@ -259,6 +264,8 @@ button[type="submit"]:hover {
 	color: #F5DEB3;
 }
 
+
+
 .fixed-top {
 	position: fixed;
 	top: 0;
@@ -323,9 +330,25 @@ footer {
     color: white !important;
 }
 
-.botonrevelde{
+.botonrevelde button[type="button"]{
 	text-align: left;
+	font-family: Tahoma;
+	background-color: #ccb5ab;
+	color: #434343;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 20px;
 }
+
+.botonreveldehover button[type="button"]:hover {
+	background-color: #333;
+	color: #F5DEB3;
+}
+
+
 
 .seccion1{
 	background-color: #D8C7BB;
@@ -382,6 +405,13 @@ footer {
 		max-width: 45%;
 		text-align: justify;
 	}
+	form {
+		margin: 5% auto;
+		max-width: 80%;
+	}
+	.contactoform {
+		padding-left: 0%;
+	}
 }
 
 @media(max-width: 425px) {
@@ -415,6 +445,9 @@ footer {
 	form {
 		margin: 5% auto;
 		max-width: 80%;
+	}
+	.contactoform {
+		padding-left: 0%;
 	}
 
 	.product-text {

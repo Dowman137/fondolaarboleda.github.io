@@ -307,13 +307,10 @@ footer {
 .navbar {
 	background-color: #a65252 !important;
 }
-
-/* Set the border color */
          
 .custom-toggler.navbar-toggler {
 	border-color: #F8F3EB;
 }
-/* Setting the stroke to green using rgb values (0, 128, 0) */
  
 .custom-toggler .navbar-toggler-icon {
 	background-image: url(
@@ -379,6 +376,11 @@ footer {
 	text-align: none;
 }
 
+.textoacercade{
+	padding-left: none;
+	padding-right: none;
+}
+
 @media(max-width: 1920px) {
 	h1, h2, h3 {
 		text-align:left;
@@ -441,6 +443,10 @@ footer {
 		padding-right: 10%;
 	}
 
+	.textoacercade{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
 
 	form {
 		margin: 5% auto;
